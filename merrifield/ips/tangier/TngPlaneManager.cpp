@@ -36,7 +36,7 @@ TngPlaneManager::~TngPlaneManager()
 bool TngPlaneManager::initialize()
 {
     mSpritePlaneCount = 1;  // Sprite D
-    mOverlayPlaneCount = 0;  // Skip overlay A & C by setting count to 0
+    mOverlayPlaneCount = 2;  // Overlay A & C
     mPrimaryPlaneCount = 3;  // Primary A, B, C
     mCursorPlaneCount = 3;
 
